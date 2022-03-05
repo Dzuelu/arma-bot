@@ -1,0 +1,16 @@
+# Ignore all files by default, but scan all directories
+*
+!*/
+
+# Don't ignore
+!*.ts
+!*.sh
+!*.js
+!*.json
+!*.md
+!yarn.lock
+!Dockerfile
+!.gitignore
+
+# Always ignore
+node_modules
