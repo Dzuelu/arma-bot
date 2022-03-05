@@ -10,7 +10,7 @@ RUN apt-get update \
 WORKDIR /app
 
 # Add the source files
-COPY * ./
+COPY . /app
 
 # Run the discord bot
 CMD [ "./start.sh" ]
